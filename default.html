@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="style.css" rel="stylesheet" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="col-md-12"><h2>Guess Number</h2></div>
+                <div id="hearts" class="col-md-12 text-align">
+                    <i class="fa-solid fa-heart heart-red"></i>
+                    <i class="fa-solid fa-heart heart-red"></i>
+                    <i class="fa-solid fa-heart heart-red"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Keep a Number in Your Mind</h3>
+                    <input id="number" class="form-control  " type="number" placeholder="Please Write a Number" />
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button id="btn-guess" class="btn btn-light w-100 btn-blue btn-show " onclick="guess();">Guess What</button>
+                        <button id="btn-again" class="btn btn-secondary w-100  btn-hide" onclick="again();">Try Again</button>
+                    </div>
+                    <div class="col-md-12">
+                        <p id="result"></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="guess_javascript.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://kit.fontawesome.com/90c6644d21.js" crossorigin="anonymous"></script>
+</body>
+</html>
